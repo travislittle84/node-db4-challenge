@@ -30,9 +30,18 @@ recipe_details
 ## RECIPE_DETAILS Fields
 -recipe_details_id*
 -recipe_id *foreign id* *
--ingredients_id *foregin id* *
+-ingredient_id *foregin id* *
 
 -step (integer)*
 -quantity (float)*
+
+## Data access
+
+    *getRecipes(): should return a list of all recipes in the databas
+
+    getShoppingList(recipe_id): should return a list of all ingredients and quantities for a given recipe
+
+    getInstructions(recipe_id): should return a list of step by step instructions for preparing a recipe
+
 
 
